@@ -50,7 +50,7 @@ function ThreeRenderer(props) {
             gltfLoader.setDRACOLoader(dracoLoader);
 
             const allObjects = [];
-            ['zhong.glb', 'zuo.glb', 'shu.glb', 'dimian.glb', 'zjc.glb'].forEach(file => {
+            ['zhong.glb', 'zuo.glb', 'shu.glb', 'dimian.glb'].forEach(file => {
                 gltfLoader.load(`resources/models/${file}`, gltf => {
                     scene.add(gltf.scene)
 
