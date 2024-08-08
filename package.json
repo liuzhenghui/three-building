@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage":".",
   "scripts": {
     "build": "react-scripts build",
     "start": "react-scripts start",
